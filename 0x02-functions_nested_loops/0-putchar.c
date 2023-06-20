@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - print out _putchar using printf
+ * main - print out _putchar without using printf
  *
  * Return: 0
  */
