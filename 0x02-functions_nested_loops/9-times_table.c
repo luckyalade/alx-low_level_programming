@@ -5,14 +5,14 @@
  */
 void times_table(void)
 {
-	int v, h;
+	int g, w;
 
-	for (h = 0 ; h < 10 ; h++)
+	for (w = 0 ; w < 10 ; w++)
 	{
 		_putchar('0');
-		for (v = 1 ; v < 10 ; v++)
+		for (g = 1 ; g < 10 ; g++)
 		{
-			int sum = v * h;
+			int sum = g * w;
 
 			_putchar(',');
 			if (sum / 100 == 0)
